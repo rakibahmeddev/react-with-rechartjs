@@ -1,6 +1,7 @@
 import './App.css'
 import AreaGraph from './assets/components/AreaGraph/AreaGraph'
 import LineChart from './assets/components/LineChart/LineChart'
+import PhonesAPI from './assets/components/PhonesAPI/PhonesAPI'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className='lg:grid lg:grid-cols-2 lg:gap-5'>
         <LineChart></LineChart>
       <AreaGraph></AreaGraph>
+      <PhonesAPI></PhonesAPI>
       </div>
     </div>
   )
