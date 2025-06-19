@@ -1,12 +1,36 @@
-# React + Vite
+# 📊 React with Recharts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project demonstrating the use of **[Recharts](https://recharts.org/en-US/)** — a powerful charting library for building beautiful and responsive charts using React.
 
-Currently, two official plugins are available:
+> 🔗 **Live Preview**:  
+[https://react-with-rechart.surge.sh](https://react-with-rechart.surge.sh)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📈 Bar Chart and Area Chart examples
+- 📱 Fully responsive with `ResponsiveContainer`
+- 🎨 Tailwind CSS styled layout
+- ⚡ Built using modern React and ES6+
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Recharts
+- Tailwind CSS (if used)
+- Surge (for deployment)
+
+---
+
+## 🚀 Getting Started
+
+To run locally:
+
+```bash
+git clone https://github.com/your-username/react-with-rechart.git
+cd react-with-rechart
+npm install
+npm run dev     # or npm start if CRA
